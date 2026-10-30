@@ -1,4 +1,4 @@
 package padroescomportamentais.mediator;
 
-public class Aluno extends Pessoa {
+public class Cliente extends Pessoa {
 }

@@ -2,16 +2,16 @@ package padroescomportamentais.mediator;
 
 public class Pessoa {
 
-    public String elogiarSecretaria(String mensagem) {
-        return Ouvidoria.getInstancia().receberElogioSecretaria(mensagem);
+    public String elogiarCozinha(String mensagem) {
+        return Garcom.getInstancia().receberElogioCozinha(mensagem);
     }
 
-    public String reclamarSecretaria(String mensagem) {
-        return Ouvidoria.getInstancia().receberReclamacaoSecretaria(mensagem);
+    public String reclamarCozinha(String mensagem) {
+        return Garcom.getInstancia().receberReclamacaoCozinha(mensagem);
     }
 
-    public String sugerirSecretaria(String mensagem) {
-        return Ouvidoria.getInstancia().receberSugestaoSecretaria(mensagem);
+    public String sugerirCozinha(String mensagem) {
+        return Garcom.getInstancia().receberSugestaoCozinha(mensagem);
     }
 
 
